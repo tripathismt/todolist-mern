@@ -1,0 +1,99 @@
+
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #e1dada;
+}
+
+header {
+  text-align: center;
+}
+
+.hcontainer{
+  margin-top: 1rem;
+  height: 20%;
+  width:100%;
+  box-sizing: border-box;
+  background-color: blue;
+  border: 1rem solid white;
+  box-shadow: 5px 5px 15px rgb(36, 4, 67),
+             -5px -5px 15px rgb(39, 39, 66);
+
+}
+
+header h1 {
+  margin:0;
+  font-size: 6rempx;
+  color: white;
+}
+
+input {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  height : 2.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+  margin-top: 3rem;
+}
+
+.task {
+  background-color: #34495e;
+  height :2rem;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
